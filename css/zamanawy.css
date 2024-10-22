@@ -1,0 +1,54 @@
+:root {
+    --primary-bg-color:rgb(174,216,234);
+    --primary-textcolor:black;
+    --secondary-text-color:gray;
+    --primary-font-size:30px;
+    --blog-backround:white;
+}
+ body {
+   font-size: var(--primary-font-size);
+   background-color: rgb(97, 15, 15);
+   padding: 0;
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.blog {
+    margin: 10px 10px;
+    background-color: rgb(249, 247, 247);
+    border-radius: 10px;
+    padding: 20px;
+    width:800px;
+    height: 300px;
+}
+.blog .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-top: 80px;
+}
+.secondary-text {
+    font-size: 20px;
+    color:var(--secondary-text-color)
+    
+}
+.detalis {
+    display: flex;
+} 
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh- 200px);
+}
+.container p{
+    font-size: 15px;
+}
+.kitap{
+    width: 200px;
+    height: 150px;
+}
